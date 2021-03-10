@@ -1,0 +1,39 @@
+{
+  "name": "mikro-orm-aws-xray-mysql",
+  "version": "1.0.1",
+  "description": "MikroORM Driver for MySQL with AWS X-Ray",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "compile": "tsc -p tsconfig.json",
+    "clean": "rimraf ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomaschaaf/mikro-orm-aws-xray-mysql.git"
+  },
+  "keywords": [
+    "mikro-orm",
+    "aws-xray",
+    "aws-x-ray",
+    "mysql"
+  ],
+  "author": "Thomas Schaaf <thomas.schaaf@finanzcheck.de> (https://www.finanzcheck.de/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thomaschaaf/mikro-orm-aws-xray-mysql/issues"
+  },
+  "homepage": "https://github.com/thomaschaaf/mikro-orm-aws-xray-mysql#readme",
+  "devDependencies": {
+    "@mikro-orm/core": "^4.4.4",
+    "@mikro-orm/mysql-base": "^4.4.4",
+    "aws-xray-sdk-core": "^3.2.0",
+    "mysql2": "^2.2.5",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "aws-xray-sdk-mysql": "^3.2.0"
+  }
+}
