@@ -6,9 +6,11 @@
       "declaration": true,
       "sourceMap": false,
       "strict": true,
+      "noImplicitAny": false,
       "suppressImplicitAnyIndexErrors": true,
       "esModuleInterop": true,
-      "outDir": "./dist"
+      "outDir": "./dist",
+      "skipLibCheck": true
     },
     "include": ["src/**/*"],
     "exclude": [
